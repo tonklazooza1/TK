@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    
+    background: #FF67B2;
 }
 
 .clearfix {
@@ -15,10 +15,20 @@ body {
 }
 
 .header {
-   text-align: center;  
+    margin: 0;
+    padding: 10px;
+    width: auto;
+    height: 50px;
+    color: #E4E7EC;
+    text-align: center;  
+    background: #422C74;
 }
 
 .listname li{
     list-style: none;
     text-align: center;
+    color: #E4E7EC;
+}
+.listname li a {
+    text-decoration: none;
 }
